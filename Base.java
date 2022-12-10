@@ -21,3 +21,6 @@ class Cafe{
 
 class menu{
     public void hotbeverages(){}
+    public void juices(){}
+    public void snacks(){}
+}
