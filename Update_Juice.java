@@ -37,6 +37,20 @@ class menu{
     
         
     }
-    public void juices(){}
+    public void juices(){
+        System.out.println("Juices");
+    System.out.println("*******************************");
+    System.out.println("Chose your juice");
+    System.out.println("1.MuskMelon\n2.Grapes\n3.Orange");
+    System.out.println("*******************************");
+    int choice=sc.nextInt();
+    switch(choice){
+        case 1:System.out.println("MuskMelon price is:60 INR");break;
+        case 2:System.out.println("Grapes price is:70 INR");break;
+        case 3:System.out.println("Orange price is:40 INR");break;
+        default:System.out.println("Invalid Choice");
+            }
+    
+    }
     public void snacks(){}
 }
