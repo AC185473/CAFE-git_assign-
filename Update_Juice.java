@@ -52,5 +52,18 @@ class menu{
             }
     
     }
-    public void snacks(){}
+    public void snacks(){
+        System.out.println("Snacks");
+    System.out.println("*******************************");
+    System.out.println("Chose your Snacks");
+    System.out.println("1.Pizza\n2.Burger\n3.Sandwich");
+    System.out.println("*******************************");
+    int choice=sc.nextInt();
+    switch(choice){
+        case 1:System.out.println("Pizza price is:200 INR");break;
+        case 2:System.out.println("Burger price is:150 INR");break;
+        case 3:System.out.println("Sandwich price is:100 INR");break;
+        default:System.out.println("Invalid Choice");
+            }
+    }
 }
